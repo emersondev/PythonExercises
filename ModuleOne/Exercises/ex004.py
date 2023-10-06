@@ -1,3 +1,6 @@
+"""
+algumas formatações de acordo com a variável, verifica se é numérico, caixa alta e etc
+"""
 value = input('digite algo: ')
 print('Qual é o tipo do dado? {}'.format(type(value)))
 print('Valor é numérico? {}'.format(value.isnumeric()))
