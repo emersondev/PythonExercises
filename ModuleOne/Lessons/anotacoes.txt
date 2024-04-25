@@ -1,0 +1,6 @@
+ordem de precedência no python
+
+() ----> posição 0
+** ----> posição 1
+* / // % ----> posição 2
++ - ----> posição 3
