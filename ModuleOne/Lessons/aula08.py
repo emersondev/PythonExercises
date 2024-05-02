@@ -3,7 +3,7 @@ para fazer uma importação, somente seguir o padrão "from BIBLIOTECA import FU
 """
 
 # math
-import math as ma #alias
+import math as m #alias
 from math import sqrt # raíz quadrada
 
 # random
@@ -29,7 +29,7 @@ num2 = random.random() # gera um numero aleatório
 num3 = random.randint(1,10) # gera um numero aleatório de 1 até 10
 raiz = sqrt(num)
 
-print('A raiz (pra cima) de {} é igual a {:.2f}'.format(num,ma.ceil(raiz)))
-print('A raiz (pra baixo) de {} é igual a {:.2f}'.format(num,ma.floor(raiz)))
-print('O número truncado de {} é igual a {:.2f}'.format(num2,ma.trunc(num2)))
-print('A potência de {} por ele mesmo é igual a {:.2f}'.format(num3,ma.pow(num3,num3)))
+print('A raiz (pra cima) de {} é igual a {:.2f}'.format(num, m.ceil(raiz)))
+print('A raiz (pra baixo) de {} é igual a {:.2f}'.format(num, m.floor(raiz)))
+print('O número truncado de {} é igual a {:.2f}'.format(num2, m.trunc(num2)))
+print('A potência de {} por ele mesmo é igual a {:.2f}'.format(num3, m.pow(num3, num3)))
